@@ -1,0 +1,24 @@
+body {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: white;
+  background-image: url(/Users/kwilliams445/Desktop/Web&Screen/myfirstproject/images/spacebackground.gif);
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 474px 474px 474px;
+}
+
+.image {
+  width: 474px;
+  height: 424px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smalltext {
+  text-align: center;
+}

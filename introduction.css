@@ -1,0 +1,20 @@
+body {
+  font-family: 'Bitter', serif;
+  text-align: center;
+  display: grid | inline-grid;
+}
+
+.backgroundimage {
+  background-image: image(/Users/kwilliams445/Desktop/Web&Screen/myfirstproject/images/hands.png);
+  background-position: center;
+  margin: -70px 0 0 0;
+}
+
+.centertext {
+  position: absolute;
+  width: 500px;
+  height: 10px;
+  top: 25%;
+  left: 50%;
+  margin: -100px 0 0 -250px;
+}

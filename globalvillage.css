@@ -1,0 +1,9 @@
+body {
+  background-image: url(/Users/kwilliams445/Desktop/Web&Screen/myfirstproject/images/warpedfacecopy.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.allign {
+  width: 600px;
+}

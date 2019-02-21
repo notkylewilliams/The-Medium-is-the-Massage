@@ -1,0 +1,34 @@
+.grid-container {
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+
+.item-1 {
+  grid-column: col 2 / span 4;
+  grid-row: row 2;
+}
+
+.item-2 {
+  grid-column: col 4;
+  grid-row: row 1 / span 3;
+}
+
+.item-3 {
+  grid-column: col 1;
+  grid-row: row 2;
+}
+
+.item-4 {
+  grid-column: col 2 / span 2;
+  grid-row: row 2;
+}
+
+.item-5 {
+  grid-column: col 1;
+  grid-row: row 3;
+}
+
+.item-6 {
+  grid-column: col 2 / span 2;
+  grid-row: row 3;
+}

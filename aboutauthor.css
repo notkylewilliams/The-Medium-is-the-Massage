@@ -1,0 +1,47 @@
+body {
+  background-color: lightgray;
+}
+
+.color {
+  display: inline-block;
+  background-color: white;
+}
+
+.header {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.authorname {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.image {
+  text-align: left;
+  width: 20px;
+  height: 40px;
+  margin: 0 0 0 70px;
+}
+
+.fulltext {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  position: absolute;
+  width: 690px;
+  height: 10px;
+  top: 20%;
+  left: 60%;
+  margin: -10px 0 0 -250px;
+}
+
+.allign {
+  text-align: left;
+}
+
+.border {
+  text-align: left;
+  width: 20px;
+  height: 2px;
+  top: -90%
+  margin: 0 -70px -20px 70px;
+}

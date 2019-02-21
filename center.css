@@ -1,0 +1,25 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.text {
+  text-align: left;
+  position: absolute;
+  width: 700px;
+  height: 1px;
+  top: 40%;
+  left: 40%;
+  margin: -220px 0 200px -250px;
+}
+
+.bottomtext {
+  text-align: left;
+  position: absolute;
+  width: 500px;
+  height: 1px;
+  top: 2000%;
+  left: 36%;
+  margin: 250px 0 200px -250px;
+}

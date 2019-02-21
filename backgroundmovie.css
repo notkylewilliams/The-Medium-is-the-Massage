@@ -1,0 +1,46 @@
+body {
+  background-image: url(/Users/kwilliams445/Desktop/Web&Screen/myfirstproject/images/background.jpg);
+  background-size: cover;
+
+  .rotated {
+    transform: rotate(45deg);
+    /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }
+
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+  {
+  background: #000;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+}
+
+#holder {
+  font-size: 16px;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#glitch {
+  text-shadow:0 0 20px #00FFFC,2px 3px 3px #141414, 0 0 100px #00D4D1;color:#00FFFC;
+  background-color:#262626;
+}
+var: gl=document.getElementById("glitch");
+var: over=false;
+function glitch() {
+  if (over == false) {
+  gl.style.opacity = "1";
+  setTimeout(function() {
+  normal();
+  }, 1500);
+  }
+}
+function normal() {
+  gl.style.opacity = "0";
+}
